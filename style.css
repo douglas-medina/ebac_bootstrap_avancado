@@ -1,0 +1,72 @@
+/* styles.css */
+body {
+    background-color: #1a1a1a;
+    color: #fff;
+    font-family: 'Verdana', sans-serif;
+}
+
+.navbar-brand {
+    font-family: 'RuneScape UF', sans-serif;
+    font-size: 1.5rem;
+}
+
+.nav-link {
+    color: #ffc107;
+}
+
+.nav-link:hover {
+    color: #fff;
+}
+
+.card {
+    background-color: #333;
+    border: 1px solid #555;
+    height: 100%;
+    /* Garante que o card ocupe toda a altura */
+    display: flex;
+    /* Usa flexbox para alinhar conteúdo */
+    flex-direction: column;
+    /* Alinha o conteúdo em coluna */
+}
+
+.card-img-top {
+    width: 100%;
+    /* Garante que a imagem ocupe toda a largura do card */
+    height: 141.08px;
+    /* Altura específica */
+    object-fit: cover;
+    /* Mantém a proporção da imagem */
+}
+
+.card-body {
+    flex: 1;
+    /* Faz com que o corpo do card ocupe o espaço restante */
+    display: flex;
+    flex-direction: column;
+}
+
+.card-title {
+    color: #ffc107;
+    font-size: 1.2rem;
+}
+
+.card-text {
+    color: #bbb;
+    flex-grow: 1;
+    /* Faz o texto crescer ocupando o espaço restante */
+}
+
+.btn {
+    align-self: center;
+    /* Centraliza o botão */
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    filter: invert(100%);
+}
+
+.carousel-inner img {
+    height: 400px;
+    object-fit: cover;
+}
